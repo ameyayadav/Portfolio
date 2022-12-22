@@ -26,9 +26,12 @@ span{
   
 }
 
+.design{
+  background-color: #ADD8E6;
+  
+}
 
-
-nav{
+ nav{
   text-align: center;
   margin-top: -70px;
  
@@ -39,40 +42,55 @@ nav{
 nav li {
   font-size: 20px;
   padding: 20px;
-  display: inline-flex;
-  margin-left: 20%;
+  display: inline;
   list-style-type: none;
-  color: white;
+  margin-left: 355px; 
   font-weight: bold;
   font-size: large;
  
+} 
+.change{
+  color: white;
 }
 
 header{
+  padding-top: 1%;
   background-image: url("/starter/images/02-hero-bg.jpg");
-  height: 300px;
+  height: 400px; 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
 }
 
-a{
-  color: white;
-  
+.move{
+  position: absolute;
+  left: -160px;
 }
 
 div{
-  margin-left: 75%;
+  margin-left: 77%;
   margin-top: -25px;
   transform: translate(-50%, -50%);
   color: white ;
 }
 
+
+/* 
 .page-section{
   margin-top: 20px;
   margin-left: 275px;
 
+} */
+
+
+ .page-section-grid{
+  display: grid;
+  ;
+} 
+
+.left{
+  position: absolute;
+  left: -120px;
 }
 
 #about{
@@ -82,25 +100,70 @@ div{
   left: 30%;
   margin-left: -3px;
   
-}
+  
+} 
 
 .side{
-  font-size: 20px;
+  font-size: 18px;
     padding-left: 15%;
     float: left;
     margin-top: -3%;
-}
+    padding-top: 5%;
+    margin-left: 40px;
+ }
 
-#work{
+ #work{
   border-left: 6px solid black;
-  height: 200px;
+  height: 300px;
+  position: absolute;
+  left: 10%;
+  margin-top: 16%;
+  grid-template-columns: 5fr 5fr  ;
+   grid-auto-rows: minmax(150px, auto);
+   grid-template-rows: 5fr 5fr ;
+  grid-gap:20px;
+  margin-left: 20%;
+  font-size: 20px;
+  grid-template-areas:
+   "grid-item1" "grid-item1"
+   "grid-item2" "grid-item3"
+   "grid-item4" "grid-item5"
+  
+}  
+
+ #contact{
+  border-left: 6px solid black;
+  height: 50px;
   position: absolute;
   left: 30%;
   margin-left: -3px;
-  margin-top: 20%;
+  margin-top: 38%;
+  
+
+} 
+
+ .grid-item1{
+  grid-area:grid-item1 ;
+  background-color: gray;
+  background-image: url("/starter/images/02-hero-bg.jpg");
+
+} 
+
+ .grid-item2{
+  grid-area:grid-item2 ;
+  background-color: aqua;
+} 
+
+ .grid-item3{
+  grid-area:grid-item3;
+  background-color: blue;
+}  
+
+
+.last{
+  position: absolute;
+  left: -190px;
 }
-
-
 
 
 
@@ -117,4 +180,5 @@ div{
 
 p {
   margin: 0;
+  justify-content: center;
 }
