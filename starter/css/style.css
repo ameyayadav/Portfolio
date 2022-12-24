@@ -20,7 +20,9 @@ h6 {
   margin: 0;
 }
 
-
+/* Changing specific color of a word */
+/* Changing specific color of a word */
+/* Changing specific color of a word */
 span{
   background-color: #ADD8E6 ;
   
@@ -32,6 +34,9 @@ span{
   
 }
 
+/* justifying nav bar  */
+/* justifying nav bar  */
+/* justifying nav bar  */
  nav{
   text-align: center;
   margin-top: -60px;
@@ -39,7 +44,8 @@ span{
   
 }
 
-
+/* aligning nav bar
+aligning nav bar  */
 nav li {
   font-size: 20px;
   padding: 20px;
@@ -76,7 +82,9 @@ header{
   color: white ;
   
 }
-
+/* applied grid system to parent container */
+/* applied grid system to parent container */
+/* applied grid system to parent container */
  .page-section-grid{
   display: grid;
   grid-template-columns: 20% 80%;
@@ -85,16 +93,15 @@ header{
 
 .page-section-grid h2{
   border-right: 5px solid #000;
-  height: 82%;
   font-size: 40px;
-  padding: 25px 25px;
+  padding: 40px 40px;
   
 }
 
 .image-container{
   display: grid;
-  height: 1000px;
-  grid-gap: 20px;
+  height: 900px;
+  grid-gap: 30px;
   grid-template-columns: 550px 550px;
   grid-template-rows: 250px 250px 250px;
   grid-template-areas: 
@@ -109,7 +116,7 @@ header{
   grid-area: grid-item1 ;
   background-color: gray;
   background-image: url("/starter/images/02-portfolio-1.jpg");
-  background-size: auto;
+  background-size: cover;
   background-position: center;
   border: 8px solid black;
   
@@ -122,7 +129,7 @@ header{
   
   background-image: url("/starter/images/02-portfolio-2.jpg") ;
   background-repeat: no-repeat;
-  background-size:auto ;
+  background-size: cover;
   background-position: center;
   border: 8px solid black;
 } 
@@ -134,7 +141,7 @@ header{
   background-size: auto;
   background-position: center;
   border: 8px solid black;
-  background-size: 600px 400px;
+  background-size: cover;
   
   
 }  
@@ -146,14 +153,14 @@ header{
   background-size: auto;
   background-position: center;
   border: 8px solid black;
-  background-size: 610px 382px;
+  background-size: cover;
  
 }
 .grid-item5{
   grid-area: grid-item5;
   background-image: url(/starter/images/02-run-buddy.jpg);
   background-repeat: no-repeat;
-  background-size: 540px 410px;
+  background-size: cover;
   background-position: center;
   border: 8px solid black;
 
@@ -170,7 +177,7 @@ header{
 border-right: 5px solid black;
 height: 100%;
 font-size: 40px;
-padding: 30px 30px;
+padding: 20px 20px;
 }
 
 .bottom{
@@ -183,6 +190,14 @@ padding: 30px 30px;
 
 .footer{
   color: black;
+}
+
+.image-container p{
+  text-align: left;
+  color: #000;
+  margin-top: 130px;
+  
+  
 }
 
 
