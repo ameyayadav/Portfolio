@@ -196,8 +196,13 @@ padding: 20px 20px;
   text-align: left;
   color: #000;
   margin-top: 130px;
+  font-size:2vw;
   
   
+}
+
+.image-container span{
+background-color: grey;
 }
 
 
