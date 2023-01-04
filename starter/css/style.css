@@ -232,9 +232,13 @@ padding: 20px 20px;
   
  } */
  .top-section{
-  overflow: hidden;
-  width: 700px;
-  float: right;
+  width: auto;
+ 
+  
+ }
+ .design{
+margin-top: -50px;
+padding: 5px;
  }
 }
   
